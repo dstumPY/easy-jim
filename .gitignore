@@ -1,4 +1,4 @@
 .vscode/
 env/
 sports/sports/spiders/__pycache__
-
+results.csv

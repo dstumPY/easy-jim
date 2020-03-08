@@ -78,7 +78,7 @@ class FollowSpider(scrapy.Spider):
             yield {"date": date_item, "time": time_item}
 
 
-mySettings = {"FEED_URI": "test.csv", "FEED_FORMAT": "CSV"}
+mySettings = {"FEED_URI": "results.csv", "FEED_FORMAT": "CSV"}
 
 process = CrawlerProcess(settings=mySettings)
 process.crawl(FollowSpider)
