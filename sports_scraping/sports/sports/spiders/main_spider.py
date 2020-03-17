@@ -2,6 +2,7 @@ import scrapy
 from scrapy.crawler import CrawlerProcess
 
 SPORTS = "volleyball"
+COURSE_NAME = "Hochschulsport"
 
 # this FollowSpider is created to crawl an inital web page defined in
 class FollowSpider(scrapy.Spider):
@@ -75,7 +76,7 @@ class FollowSpider(scrapy.Spider):
         zipped_data = zip(dates, times)
 
         for date_item, time_item in zipped_data:
-            yield {"date": date_item, "time": time_item}
+            yield {"date": date_item, "time": time_item, "name": COURSE_NAME}
 
 
 mySettings = {"FEED_URI": "results.csv", "FEED_FORMAT": "CSV"}

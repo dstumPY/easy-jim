@@ -1,0 +1,36 @@
+{
+    "one-time-events": [
+        {
+            "name": "eventC",
+            "start-date": "08.01.2020",
+            "start-time": "13:30:00",
+            "end-date": "08.01.2020",
+            "end-time": "15:30:00"
+        },
+        {
+            "name": "eventD",
+            "start-date": "10.01.2020",
+            "start-time": "12:00:00",
+            "end-date": "10.01.2020",
+            "end-time": "16:00:00"
+        }
+    ],
+    "multiple-times-events": [
+        {
+            "name": "eventA",
+            "start-date": "06.01.2020",
+            "start-time": "17:00:00",
+            "end-date": "06.01.2020",
+            "end-time": "19:00:00",
+            "rhythm": 14
+        },
+        {
+            "name": "eventB",
+            "start-date": "13.01.2020",
+            "start-time": "17:00:00",
+            "end-date": "13.01.2020",
+            "end-time": "19:00:00",
+            "rhythm": 14
+        }
+    ]
+}
