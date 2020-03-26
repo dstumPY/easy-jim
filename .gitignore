@@ -1,4 +1,8 @@
 .vscode/
+.gitignore
 env/
 sports/sports/spiders/__pycache__
 results.csv
+results_old.csv
+__pycache__
+own_credentials.py
